@@ -94,6 +94,10 @@ body {
   height: 4.5rem;
   grid-row: 1/span 2;
   transform: translateY(-1rem);
+  transition: all 0.3s;
+}
+.feature__icon:hover {
+  fill: black;
 }
 .feature__text {
   font-size: 1.7rem;
