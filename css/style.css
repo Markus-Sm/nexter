@@ -193,6 +193,18 @@ body {
 .home {
   background-color: #f9f7f6;
 }
+.home__img {
+  width: 100%;
+  grid-row: 1/2;
+  grid-column: 1/-1;
+  z-index: 1;
+}
+.home__location svg, .home__rooms svg, .home__area svg, .home__price svg {
+  fill: #c69963;
+  height: 2rem;
+  width: 2rem;
+  margin-right: 1rem;
+}
 
 .gallery {
   background-color: #54483A;
